@@ -1,0 +1,51 @@
+---
+title: 'Assignment 2: Commentary on Research Plan'
+author: "Erik Bülow"
+date: '2017-02-28'
+abstract: "This is assignment 2 for the introductionary PhD course at the Sahlgrenska Academy 20017."
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Theory of Science
+
+scientific ideal: inductivist, falsificatory and paradigmatic.
+hypothesis driven or inductivist (data driven)?
+Are your hypotheses clear? How are they formulated? Try to reformulate; what happens? According to Popper, hypotheses should be bold, easy to falsify. How do you handle or manage anomalies? Do you really try to falsify your hypothesis? If not, why not?
+Is there any section in the text where ”normal science” is particularly stressed? What part, how and why?
+Is there any place(s) in the plan where certainty, ”true” or fact is particularly stressed? What is the purpose of presenting research in this way?
+ Can you identify any instances in your text where the “inductivist problem” could be present?
+Is this really a problem?
+When does it become a problem?
+
+
+
+
+
+# Research Methodology
+
+What is your research topic and why is it of interest to both the scientific community and the general public?
+How will you answer your research questions? Why and how did you choose the current strategy? 
+Does your present study design carry any limitations? If yes, which? If no, why not?
+How could your research topic be explored with alternative research methods? For example a mixed methods approach or adding a qualitative study if you have a quantitative approach and vice versa? Based on your study design, briefly devise an alternate route that could be useful for exploring your research project.
+
+
+
+
+
+
+# Research Ethics
+
+Does the possible benefits (e.g. for the research subject, some patient group or society as a whole) sufficiently outweigh the risks for the project to be justified?
+How do you ensure that the research subject gives her free and informed consent to participate?
+If your particular research subjects cannot give their free and informed consent, what do you do?
+ 
+
+
+
+
+# Information Retrieval
