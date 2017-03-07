@@ -20,28 +20,41 @@ knitr::opts_chunk$set(echo = TRUE, fig.align =
 
 # Research plan
 
-*This chapter constitute an Individual Study Plan for PhD studies performed by Erik Bülow at the Department of orthopedics, Institute of clinical sciences, Sahlgrenska Academy, University of Gothenburg, and by the Swedish Hip Arthroplasty Register.*
+*This chapter constitute an individual study plan for PhD studies performed by Erik Bülow at the Department of orthopedics, Institute of clinical sciences, Sahlgrenska Academy, University of Gothenburg, and by the Swedish Hip Arthroplasty Register.*
 
 
 ## Background
 
-Total hip arthroplasty (THA) is a common and well established procedure to
+### Total hip arthrolpasty
+
+Total hip arthroplasty (THA), also known as "total hip replacement", is a common and well established surgical procedure to
 increase quality of life for patients with:
 
-* Hip osteoarthritis, which is a major contributor to global disability and the
+\begin{description}
+  
+  \item[Hip osteoarthritis: ]{the
 most common reason for hip arthroplasty (more than 80 % in Sweden). THA is an
 elective treatment for this group of patients and is therefore offered mainly to
-relatively healthy individuals. 
-* Hip fracture of the femoral neck is the second
-most common cause (around 10 %) and mainly affects older and fragile patients
-8more women then men). 
-* Other causes such as inflamation, malignancy or causes
-related to child diseases, acount for a small fraction. These patients are not
-included in the proposed research project.
+relatively healthy individuals.}
+  
+  \item[Hip fracture of the femoral neck: ]{the second
+most common cause (around 10 %) that mainly affects older and fragile patients
+(more common among females).}
+  
+  
+  \item[Other causes: ]{inflammation, malignancy or causes
+related to child diseases account for a small fraction of THA. These patients are not
+further considered within this project.}
+
+\end{description}
+
 
 The incidence of hip arthroplasty is approximately 16,000 annual cases in Sweden
 and the need is increasing due to longer life spans and therefore an increasing
 elderly population.
+
+
+# A shared decision making tool 
 
 It is known that the patients’ preoperative health characteristics have an
 important impact on their health status after hip arthroplasty. Sharing this
@@ -57,6 +70,9 @@ is not the scale but the heterogeneity of the data. In order to succeed with SDM
 tools, fine-grained data are required to build models actionable at individual
 level.
 
+
+### Linkage studies
+
 Sweden facilitates linkage-studies by the adoption of the 10-digit personal
 identity number (PIN) maintained by the Swedish Tax Agency. This 10-digit PIN
 allows a near-by 100 per cent coverage of the Swedish healthcare system and it
@@ -67,6 +83,7 @@ registers" have been initiated and managed by the medical profession during the
 last couple of decades. These provide data centered around diagnoses, implants
 or medical procedures. In addition to facilitating national, regional and local
 quality improvement programs, they also provide research data of high quality. 
+
 In this research project, we will focus on data from The Swedish Hip
 Arthroplasty Register (SHAR); one of the first quality registers in Sweden,
 founded in 1979.
@@ -76,10 +93,9 @@ founded in 1979.
 ## Overall Research Aim and Central Research Questions
 
 A current research aim for SHAR is to develop a shared decision making tool for
-patients with total hip arthroplasty. The development of such a tool has already
-been initiated by the register. It is the goal of this project to contribute
+patients with total hip arthroplasty. It is here the goal of this project to contribute
 with evaluation of some statistical and epidemiological methods of value. It is
-here not only of value to develop new methods but also to question sometimes
+not only of value to develop new methods but also to question sometimes
 unjustified methods previously recommended.
 
 We will put special attention on the following research questions:
@@ -88,7 +104,7 @@ We will put special attention on the following research questions:
 to otherwise healthy patients with elective total hip arthroplasty? 
 2. Does this
 aspect differ considering the smaller and quite different patient group with hip
-arthroplasty after acute hip fracture? 
+arthroplasty after acute femoral neck fracture? 
 3. Can we improve the current practice of
 handling missing comorbidity data for prediction of mortality? 
 4. Can we also
@@ -110,9 +126,9 @@ computer science (a mix sometimes refereed to as "data science").
 Data have already been acquired from three main sources (figure 1).
 
 1. The starting point was SHAR from where we identified all first time (primary)
-hip arthroplasty surgeries in Sweden from 1992 to 2013. This data is identified
+hip arthroplasty surgeries in Sweden from 1992 to 2013. Cases are here identified
 by personal identification number (PIN) and laterality (left or right hip). 
-2. The SHAR data set was submitted to the National Board of Health and Welfare
+2. The SHAR data was then submitted to the National Board of Health and Welfare
 (Socialstyrelsen) who supplied us with comorbidity data from the national
 patient register (NPR). They removed the PIN and replaced it with a serial
 number in order to anonymize the data. 
@@ -121,6 +137,18 @@ Sweden (SCB) to obtain requested socioeconomic variables.
 4. Finally, Statistics
 Sweden returned a data set to SHAR with the serial number and laterality as the
 only unique identifiers.
+
+
+The resulting data set contains:
+
+\begin{description}
+  \item[Patient characteristics: ]{age, sex, location of recidence, sociodemographics, dates of surgery, possible comorbidities and date of death}
+  \item[Prothesis data: ]{surgical techniques and components used}
+  \item[Hospital data: ]{hospitals and sergeons responsible for treatment et cetera}
+  \item[PROM: ]{patient reported outcomes reported 1, 5 and 10 years after surgey, and preoperatively for elective THA}
+\end{description}
+
+
 
 
 
@@ -135,7 +163,7 @@ This type of study does not require informed consent from registered patients.
 Neither has it been mandatory to inform the patients about the registration in
 SHAR, during most of the period when our data was collected. It is however
 mandatory today and it is also possible (although uncommon) for patients to now
-withdraw their previous "consent" of registration.
+withdraw their previous (implicit) "consent" of registration.
 
 Data in a quality register is owned by the organisations treating the patients
 and it should be primarily used for quality assurance and development of medical
@@ -165,14 +193,14 @@ It is the belief of this project that scientific principles are not always
 falsified even when they could be, and that research methods are sometimes
 proposed for one area but then adopted to others, where the same circumstances
 or assumptions do no longer apply. It is our aim to uncover some black boxes and
-to re-evaluate if some common practices are really valuable for a shared
-decision making tool for treatment with hip arthroplasty.
+to re-evaluate if some common practices are really of value for a shared
+decision making tool for treatment with total hip arthroplasty.
 
 
 
 ## Individual Studies
 
-We aim at five individual studies to complete the thesis.
+We aim at five individual studies to complete the PhD thesis.
 
 
 
@@ -198,7 +226,7 @@ Charlson comorbidity indices for patients with total hip arthroplasty. Elective
 hip arthroplasty is offered to otherwise healthy individuals. It is therefore
 unlikely that this cohort suffer from diseases causing death in a nearby time
 frame. It might therefore not be relevant to predict their mortality by
-co-morbidities present already before the surgery. To avoid that burden would be
+comorbidities present already before the surgery. To avoid that burden would be
 preferable to a DSM since this practice requires massive external data from
 outside the SHAR register.
 
@@ -215,16 +243,17 @@ assumptions for such a method to hold.
 
 #### Background
 
-Around 90 percent of all hip arthroplasties in Sweden are offered as elective
+Around 80 percent of all hip arthroplasties in Sweden are offered as elective
 treatments after osteoarthritis. Every tenth prosthesis is nevertheless the
 result of acute hip fracture. Acute hip fractures happens most often to old and
 fragile patients for whom comorbidity might be a more relevant predictor of
 mortality.
 
+
 #### Aim
 
 We aim to investigate similar aspects as for the previous study but for patients
-with hip fractures.
+with acute femur neck fractures.
 
 
 
@@ -268,7 +297,9 @@ Swedish population.
 To investigate comorbidity on a large scale such as now intended, it is useful
 to have a supporting computer infra structure. The open-source and freely
 available R software is the preferred choice for many statisticians, and we want
-to work with comorbidity classification within this framework. A first naive
+to work with comorbidity classification within this framework. 
+
+A first naive
 implementation took around 18 hours to run on a standard computer. The best
 available R-package found on-line reduced the time to around half an hour but
 this is still quite slow for the modern computer era.
@@ -282,7 +313,7 @@ structure both regarding data sets and code identification schemes. Most of the
 work concerns the software package itself but we do intend to describe the
 implementation in an article worth publishing in a software oriented journal.
 
-The implementation will be based on abstract principles and therefore of
+The implementation will be based on abstract principles and might therefore be of
 interest also to other classification problems, such as for adverse events (as
 identified by similar methodology as comorbidities, but after, and not before,
 the time of surgery).
@@ -293,8 +324,8 @@ the time of surgery).
 
 #### Background
 
-Most patients with hip arthroplasty have one hip replaced (unilateral cases). It
-is however not uncommon to have arthroplasty also for the second hip (bilateral
+Most patients with hip arthroplasty have only one hip replaced (unilateral cases). It
+does however become more anf more common to have arthroplasty also for the second hip (bilateral
 cases). This introduce problems when analyzing and modelling hip arthroplasty
 data, since two hips from the same patient can not be assumed independent (which
 is assumed by most standard statistical methods to work properly).
@@ -333,34 +364,34 @@ statistician at the Swedish Hip Arthroplasty Register.
 
 
 I did in fact have a look at the assignment list before submitting the first
-draft of the research plan. I did therefore have the chance to also include a
-section on theory of science already from the start.
+draft of the research plan. I therefore had the chance to also include a
+section on theory of science and ethics already from the start.
 
 
 ### Scientific ideal
 
-As stated there, I think that my project might differ slightly from my peers due
-to my background in the non-empirical field of mathematics. Mathemathematics is
-build upon logic. By so, it shares its common ground with theoretical
-philosophy. "Induction" exist as a term also in mathematics but with a different
-meaning. I will here use the term "induction" in the sence of "statistical
-inference".
+My project use statistical methods applied to the field of medecine. 
+By "statistics" I here mean "mathematical statistics", a branch of mathematics which in turn is build upon logic. 
+By so, it shares its common ground with theoretical philosophy by the internal use of deduction and not induction.
+The statistical methods then work as a link between the deductive mathematics and the inductive medial science. 
+What I here refer to as "induction" is therefore identical to "statistical inference".
+(The term does have another meaning in mathematics, which also Popper himself mentions in his book.)
 
-Using that meaning of the term, it is indeed the scientific ideal my research
-will rely upon. It might be notet however that in my case, using data from a
-quality register data, the population of interest might be seen as almost
-completely covererd by the sample at hand. Hence, leaving less room for
-generealisation and real "inductivist" tecniches. I tend to not agree though.
+Using this meaning of "induction", it is indeed the scientific ideal that my research
+will rely upon. It might be noted however that in my case, using data from a
+quality register, the population of interest might be seen as almost
+completely covered by the sample at hand. Hence, leaving less room for
+generalization and real "inductivist" techniques. I tend to not agree though.
 Our "sample" might have good "coverage" and "completeness" compared to the
-population with Swedish identification numbers operated in Sweden during the
-years of interest. The proportion of non-Sweish recidence operated with total
+population of individuals with Swedish identification numbers operated in Sweden during the
+years of interest. The proportion of non-Swedish residence operated with total
 hip arthroplasty (THA) in Sweden might be marginal, as well as the proportion of
-Swedish recidences operated elsewere. It might however be of great interest to
-possibly generalise some of the results also to other countries with similair
+Swedish residences operated elsewhere. It might however be of great interest to
+possibly generalize some of the results also to other countries with similar
 health care system as ours. A long term goal is also to facilitate predictions
 useful to future patients. Extrapolation as such might not be completely
-justified by any scientific framework but it doed nevertheless make us dependent
-on inductive reasoning.
+justified by any scientific framework but it does nevertheless make us dependent
+on inductive reasoning. Hence, on generalisations to a population larger than the sample at hand. 
 
 
 ### Falsification
@@ -368,25 +399,27 @@ on inductive reasoning.
 It is also the ideal to falsify a "tiny bit of paradigm" by rejecting the
 hypothesis that mortality for THA patients can be reasonably predicted by
 comorbidity. This was formulated as an hypothesis in the beginning of the
-project, but did as such rely on earlier observations.
+project, but did as such rely on earlier observations from outside the study.
 
 
 ### Hypothesis testing
 
-What we here mean by "hypothesis" though might not fit entirely within the
-statistical inference paradigm. It is a hypothesis for sure but we do not really
-treat it as such during the study. We are relying on fairly new statistical
+What we here mean by "hypothesis" might not fit entirely within the
+statistical inference paradigm. We do formulate such hypothesis but we rely on fairly new statistical
 methods for estimating predictive power for survival data. Theoretical methods,
 and even computer software does exist, but only for point estimates of a
-centrality measure. A variance stimator is also needed to construct confidence
-interval and to test a formal hypothesis. Today, the litterature suggest use of
-more empirical methods such as "bootstraping" (a resampling method) to construct
-such an estimate. The data at hand, combined with available computing resources
+centrality measure. A variance estimator is also needed to construct confidence
+interval and to test a formal hypothesis within the "paradigm" of inferencial statistics. 
+
+The literature currently suggest use of
+more empirical methods such as "bootstrapping" (a re-sampling method) to construct
+estimates of variance. The data at hand, combined with available computing resources
 does however not permit such an estimate to be easily done (it is simply too
-computer intence). We therefore decided to also incorporate a more practical
+computer intense). We therefore decided to also incorporate a more practical
 software developing part of the project with the aim to make such computations
 possible in the future.
 
+Hence, we do have a hypothesis and we do investigate the population through a sample. We do not however always use formal hypothesis testing to make formal inductions in order to generalise our results from population to sample. 
 
 
 
@@ -395,16 +428,16 @@ possible in the future.
 
 ### The research and its potential relevance
 
-My research project is on total hip arthroplasty. This is now a comon procedure,
-performed to appriximately 16,000 Swedish patients yeach year. Patients usually
+My research project is on total hip arthroplasty. This is now a common procedure,
+performed to approximately 16,000 Swedish patients each year. Patients usually
 get an offer of hip replacement if this seem like a reasonable treatment for
-osteoarthrisis or any other relevant indication. They the nneed to eiher accept
-or decline that offer. That desicion might be based on weightning pros and cons
+osteoarthritis or any other relevant indication. They the need to either accept
+or decline that offer. That decision might be based on weighting pros and cons
 of potential side effects and adverse events. Our research goal is to provide
 both the patient, but also the treating physician, with a shared decision making
 tool. It is here the goal to use readily available patient data for the basis of
 a recommendation whether to operate or not. We hope that this will reduce the
-number of THA:s causing more harm than good, and ikevise that patiants with a
+number of THA:s causing more harm than good, and likewise that patients with a
 potentially good outcome will indeed take on the offer.
 
 
@@ -415,22 +448,22 @@ is intended to mainly use data from the register. With the use of personal
 identification numbers, we are also able to link our register data to other
 already available registers. We therefore include information on possible
 comorbidities (the Swedish patient register), medical prescriptions (the
-prescription register), date of death (the population register) etcetera. This
-data is alredady available and the sources will be useable also in the future as
+prescription register), date of death (the population register) et cetera. This
+data is already available and the sources will be usable also in the future as
 long as these registers are maintained.
 
 An obvious drawback with this "fixed data set" is that we have limited
-possibilities to extend the information that is alredady available. Also, some
+possibilities to extend the information that is already available. Also, some
 data was collected for different reasons than research, which might be reflected
 on data quality. Some health care providers have for example used the patient
-register as part of a payment system, causing  skewed incitaments for diagnose
+register as part of a payment system, causing  skewed incitements for diagnose
 registration.
 
-Also, the formulation of each question has to be standardised. Most questions
+Also, the formulation of each question has to be standardized. Most questions
 therefore have a fixed set of possible alternative answers that each procedure
-and patient has to be squeezed into, sometimes with sucess, sometimes not. This
+and patient has to be squeezed into, sometimes with success, sometimes not. This
 also applies to some qualitative questions regarding the patients own
-perceptions of their current health status (pationt reposter outcome measures;
+perceptions of their current health status (patient reported outcome measures;
 EQ5D).
 
 Except its limitation, register data of this sort has the potential to be a good
@@ -443,27 +476,27 @@ observational studies but it does not help us with causality.
 
 Some alternative research methods could be considered:
 
-* A randomzed clinical trial would probably not be possible. Comorbidity is an
+* A randomized clinical trial would probably not be possible. Comorbidity is an
 independent factor of ours but we could not ethically induce random patients
 with various comorbidities just to study a possible change of mortality. 
 * Animal studies does not seem like a reasonable method either. First, the use of
-hip prothesis is probably not relevant for four-legged animals if the goal os to
-transer the results to human. This would leave us with limited options of animal
+hip prosthesis is probably not relevant for four-legged animals if the goal is to
+transfer the results to human. This would leave us with limited options of animal
 models. Second, the required scale of such an experiment would just be too big
 to handle. 
 * Instead of using register data, it might be possible to use data
-also from medical journals or other sources. To extract such infomration as
+also from medical journals or other sources. To extract such information as
 complement to register studies is not uncommon. But it is cumbersome and in this
 case, the obvious benefits are not clear. 
 * To extend the (currently limited)
 subjective patient information would be interesting and probably relevant. It
 could be very meaningful to retrieve information not only regarding fixed
-comorbidity classes but also on percieved health status and severity of each
+comorbidity classes but also on perceived health status and severity of each
 coexisting comorbidity. It would have the potential to give a deeper
-understanding of feelings and reasong behind a patients decision to accept or
+understanding of feelings and reason behind a patients decision to accept or
 decline the offer of THA. Similar questions would be relevant also for treating
 physicians. It would be interesting to study their strategies of patient
-communication and reasong when offering such procedure. This is unfourtenataly
+communication and reasoning when offering such procedure. This is unfortunately
 outside the scope of the current study but might be proposed for the future.
 
 
@@ -480,8 +513,8 @@ Direct benefits for the research subjects themselves would be very limited.
 Since we study mortality, some of the included patients have already died. The
 risk for these patients is on the other hand quite limited too.
 
-The short-term utcome of the project will probably be in form of gained
-information to use for further reserach. There is however an end goal of
+The short-term outcome of the project will probably be in form of gained
+information to use for further research. There is however an end goal of
 building a shared decision making tool. Possible benefits of such tool has
 already been discussed. Potential risks on the other hand might lie in a
 potential miss-use of such tool. The intention of the tool is not to replace any
@@ -489,55 +522,75 @@ of the current tools aiding the patients and physicians decision process. The
 most relevant data might still be out of reach from what we can capture from
 register data.
 
-A possible missuse of a shared decision making tool would be if policy makers
+A possible missus of a shared decision making tool would be if policy makers
 used it to withhold possible treatment to patients needing it (for example due
 to economical reasons).
 
-To avoid such malicious miss-use can of course never be garanteed but we do
-think that potential benefits outweight the risks.
+To avoid such malicious miss-use can of course never be guaranteed but we do
+think that potential benefits outweigh the risks.
 
 It might also be of relevant to mention that the register data can only be used
 for the research process itself. Hence, we can build a model using current data,
-and we might use this model to predict outcome for future patients. Curremt
+and we might use this model to predict outcome for future patients. Current
 legislation does however not permit that future patients register data is used
-directly for a clinical decission (since the quality register data is not signed
+directly for a clinical decision (since the quality register data is not signed
 the same way as a medical journal). It is therefore necessary for the physician
-to dubble-register the data once more for the shared decision making tool (even
+to dibble-register the data once more for the shared decision making tool (even
 though the same data might be already available from the register). This might
-be cumbersume to the doctor but it might also make it a little more transparent
-to the patient excactly which information is used as a basis for the
+be cumbersome to the doctor but it might also make it a little more transparent
+to the patient exactly which information is used as a basis for the
 recommendation.
 
 
 
 ## Information Retrieval 
 
-I started to search for comorbidity as MeSH term but
-that gave me too broad results. I therefore limited it to specific mentions of
-either Charlson or Elixhauser: 
+### Search results
 
-``` 
-("charlson"[All Fields] OR "elixhauser"[All
+* I initially limited the search to total hip arthroplasty after hip fracture.
+That was too narrow and I changed to "hip fracture only"
+* I am not really interested in short time mortality. I therefore started to exclude "hospital mortality (with `NOT`, `AND NOT` and `-` in the different data bases)". I did find this too narrow and therefore dropped it. 
+* I also tried to limit the search to different parts of the articles (such as all text, title/keyword/abstract et cetera). Best result was however found by including the title only.
+
+
+| Question                       | PubMed | Scopus | Google Scholar      | 
+|-------------------------------|--------|--------|----------------------| 
+| Search terms used             | [1]    | [2]    | [3]                  | 
+| Any applied limiters/filters  | -      | -      | no citations/patents | 
+| Number of results             | 19     | 9      | 10                   | 
+| Est. no. of relevant articles | 14     | 9      | 10                   |
+
+Search queries:
+
+1. `("charlson"[All Fields] OR "elixhauser"[All
 Fields]) AND "mortality"[MeSH Terms] AND "Hip Fractures"[MeSH Terms] NOT
-"Hospital Mortality"[MeSH Terms] 
-```
-
-Scopus: 
-
-``` 
-TITLE-ABS-KEY ( charlson  OR  elixhauser  AND  mortality  AND  "hip
-fracture"  AND NOT  "hospital mortality" ) 
-``` 
-
-<!-- (("comorbidity"[MeSH Terms]
-OR "charlson"[All Fields] OR "elixhauser"[All Fields]) AND "mortality"[MeSH
-Terms] AND "arthroplasty, replacement, hip"[MeSH Terms]) NOT infection[Title]
-NOT "Hip Fractures"[MeSH Terms] NOT "Hospital Mortality"[MeSH Terms] -->
+"Hospital Mortality"[MeSH Terms]`
+2. `TITLE(comorbidity OR charlson OR elixhauser AND mortality AND "hip fracture")`
+3. `allintitle: mortality comorbidity OR charlson OR Elixhauser "hip fracture"`
 
 
-| Qestion                       | Pubmed | Scopus | Google Scholar | 
-|-------------------------------|--------|--------|----------------| 
-| Search terms used             |        |        |                | 
-| Any applied limiters/filters  |        |        |                | 
-| Number of results             |        |        |                | 
-| Est. no. of relevant articles |        |        |                |
+### Databases
+
+I choosed to work with the following data bases:
+
+* PubMed, since this seems to be the most commonly used data base within my field (as seen from mentions in some articles). I also very much appreciate the possibilities of MeSh terms since some phrases (such as "hip arthroplasty" or "hip replacements") are not fully standardized. The idea of manually indexed articles feels appealing. I must admit I first hesitated to use the database, mainly due to its old-style graphical design.
+* Scopus, sine my field is not entirely covered by the field of medicine. This is not obvious from the search queries above (focused on medical applications). Scopus does however cover journals of statistics (mathematical science) which PubMed does not.
+* Google Scholar, since this has previously been my go-to search engine and is also used extensively by my super-visor. I have so far not been so concerned by the sources of indexed journals et cetera since I have hoped to be able to deduct from reading each source if it seems reliable or not. I do however realize that the manual curation performed by the other data bases has some really nice properties. 
+
+The "Web of Science" could be an additional data base of relevance that I have so far not investigated further. 
+
+Scopus and Google Scholar gave very similar results. This is not surprising since the search query used were almost identical (although phrased a little different to cohere with the syntax of each data base). Google Scholar had one additional hit, due to a wider range of indexed sources (a PhD thesis published on a university web site).  
+
+There were more hits from PubMed, neither surprising due to a different search query. In PubMed, we used MeSH terms to include some results without explicit mentions of specific terms in the article headings. I thought this was a good idea to not miss some articles that might still be relevant but with a different heading. If not limiting the search to heading in Scopus and PubMed could then be an alternative but that query turned out too broad, wherefore such limit were seen necessary due to the lack of MeSH terms in these data bases. 
+
+My conclusion is that all three data bases might be relevant, maybe not so much for this particular exercise (where all results were from the field of medicine), but more generally so for results concerning more theoretical aspects of statistical methodology.
+
+
+### Fixed search strategies
+
+The results found above very not that many. To get immediate alerts for newly indexed items therefore seems relevant. 
+To create such alert for all sources would probably be redundant I and would therefore choose PubMed to get as many relevant hits as possible. 
+
+I usually also get article suggestions both from Mendeley and ResearchGate. I have not fully dived into the details of these recommendations but assume they are generated by some underlying machine learning algorithm. I also subscribe to ToC-alerts for relevant journals but usually find the lists too long to be of direct use.  
+
+I do not find it relevant to make manual searches of the same queries repeatedly over the course of my studies but instead prefer the use of automatically generated search alerts. 
