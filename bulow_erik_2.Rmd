@@ -36,12 +36,12 @@ patients with:
 
 \begin{description}
 
-\item[Hip osteoarthritis (80 \%): ]{THA is an elective treatment for tese
+\item[Hip osteoarthritis (80 \%): ]{THA is an elective treatment for these
 patients and is therefore offered mainly to relatively healthy individuals.}
 
 \item[Hip fracture of the femoral neck (10 \%): ]{This mainly affects old and
 fragile patients (more common among women) or young and very physically active
-individuals (such as proffesional athletes).}
+individuals (such as professional athletes).}
 
 
 \item[Other causes (10 \%): ]{Mostly inflammation, malignancy or causes related
@@ -103,16 +103,16 @@ recommended.
 
 We will put special attention on the following research questions:
 
-1. Is the current practice to predict mortality by comorbidity really of value 
+1. Is the current practice to predict mortality by co-morbidity really of value 
 for otherwise healthy patients with elective total hip arthroplasty? 
 2. Does
 this aspect differ considering the smaller and quite different patient group
 with hip arthroplasty after acute femoral neck fracture? 
 3. Can we improve the
-current practice of handling missing comorbidity data for prediction of
+current practice of handling missing co-morbidity data for prediction of
 mortality? 
 4. Can we also put all this into practice by contributing with
-software tools to facilitate patient classification of comorbidity and other
+software tools to facilitate patient classification of co-morbidity and other
 relevant data? 
 5. How do we best describe and model patients with bilateral hip
 arthroplasty?
@@ -134,7 +134,7 @@ hip arthroplasty surgeries in Sweden from 1992 to 2013. Cases are here
 identified by personal identification number (PIN) and laterality (left or right
 hip). 
 2. The SHAR data was then submitted to the National Board of Health and
-Welfare (Socialstyrelsen) who supplied us with comorbidity data from the
+Welfare (Socialstyrelsen) who supplied us with co-morbidity data from the
 national patient register (NPR). They removed the PIN and replaced it with a
 serial number in order to anonymize the data. 
 3. Next, the National Board of
@@ -150,7 +150,7 @@ Then, the data set contains:
 \begin{description} 
 
 \item[Patient characteristics: ]{age, sex, location of
-residence, sociodemographics, dates of surgery, possible comorbidities and date
+residence, sociodemographics, dates of surgery, possible co-morbidities and date
 of death} 
 
 \item[Prosthesis data: ]{surgical techniques and components used} 
@@ -224,8 +224,8 @@ We aim at five individual studies to complete the PhD thesis.
 #### Background
 
 It is often suggested that studies on mortality should adjust for possible 
-comorbidities as con-founders. The International Classification of Diseases, 
-10th Revision (ICD-10)-based comorbidity indices, such as the Elixhauser or the 
+co-morbidities as con-founders. The International Classification of Diseases, 
+10th Revision (ICD-10)-based co-morbidity indices, such as the Elixhauser or the 
 Charlson, have been developed for this purpose and many researches have 
 investigated their reliability. The practice has also proved useful for patients
 with life threatening diseases such as cancer, for whom death is a possible 
@@ -235,11 +235,11 @@ outcome.
 #### Aim
 
 We intend to investigate the long-term predicative power of the Elixhauser and 
-Charlson comorbidity indices for patients with total hip arthroplasty. Elective 
+Charlson co-morbidity indices for patients with total hip arthroplasty. Elective 
 hip arthroplasty is offered to otherwise healthy individuals. It is therefore 
 unlikely that this cohort suffer from diseases causing death in a nearby time 
 frame. It might therefore not be relevant to predict their mortality by 
-comorbidities present already before the surgery. To avoid that burden would be 
+co-morbidities present already before the surgery. To avoid that burden would be 
 preferable to a DSM since this practice requires massive external data from 
 outside the SHAR register.
 
@@ -257,7 +257,7 @@ assumptions for such a method to hold.
 #### Background
 
 Every tenth prosthesis in Sweden is the result of an acute femoral neck
-fracture. This affects mostly old and fragile patients for whom comorbidity
+fracture. This affects mostly old and fragile patients for whom co-morbidity
 might be a relevant predictor of mortality.
 
 
@@ -272,9 +272,9 @@ with THA after an acute femur neck fracture.
 
 #### Background
 
-If comorbidity would be a relevant predictor of mortality, it would also be 
-necessary to investigate how current methods and comorbidity data could be used.
-Data on comorbidity is not easily gathered, not even in Sweden that is otherwise
+If co-morbidity would be a relevant predictor of mortality, it would also be 
+necessary to investigate how current methods and co-morbidity data could be used.
+Data on co-morbidity is not easily gathered, not even in Sweden that is otherwise
 world leading regarding register studies based on publicly availability and well
 organized data centered around the PIN.
 
@@ -288,7 +288,7 @@ psychiatric health care.
 
 It is our intention to compare data from the national patient register to data 
 from the medical prescription register. We will also evaluate if the common 
-practice to combine patients without registered comorbidities, with patients 
+practice to combine patients without registered co-morbidities, with patients 
 completely missing from the data source at hand, is actually relevant due to 
 survival and self-reported quality of life, or if these two patient groups 
 should be differentiated.
@@ -306,10 +306,10 @@ classification
 
 #### Background
 
-To investigate comorbidity on a large scale, such as now intended, it is useful 
+To investigate co-morbidity on a large scale, such as now intended, it is useful 
 to have a supporting computer infra structure. The open-source and freely 
 available R software is the preferred choice for many statisticians, and we want
-to work with comorbidity classification within this framework.
+to work with co-morbidity classification within this framework.
 
 A first naive implementation took around 18 hours to run on a standard computer.
 The best available R-package found on-line reduced the time to around half an
@@ -326,7 +326,7 @@ implementation in an article for a software oriented journal.
 
 The implementation will be based on abstract principles and might therefore be
 of interest also to other classification problems, such as for adverse events
-(as identified by similar methodology as comorbidities, but after, and not
+(as identified by similar methodology as co-morbidities, but after, and not
 before, the time of surgery).
 
 
@@ -369,52 +369,50 @@ statistician at the Swedish Hip Arthroplasty Register.
 
 # Commentary
 
-*This chapter contains general comments regarding the research plan.*
+*This chapter contains general comments regarding the research plan. I did in fact have a look at the assignment list before submitting the first 
+draft of the research plan. I therefore had the chance to include sections on
+theory of science and research ethics already from the start.*
 
 ## Theory of science
-
-
-I did in fact have a look at the assignment list before submitting the first 
-draft of the research plan. I therefore had the chance to include a section on
-theory of science (along with ethics) already from the start.
-
 
 ### Scientific ideal
 
 My project use statistical methods applied to the field of medicine. 
 Mathematical statistics is a branch of mathematics which in turn is build upon
-logic. By so, it shares common ground with theoretical philosophy by the
-internal use of deduction and not induction.
+logic. By so, it shares common ground with theoretical philosophy by a
+foundation build upon deduction (as opposed to the empirical sciences relying on induction).
 
 The statistical methods here work as a link between the deductive mathematics
-and the inductive medical science. What I here refer to as ''induction'' is
-therefore identical to ''statistical inference''. (The term does in fact have
-another meaning in mathematics, also mentioned by Popper in his book.)
+and the inductive medical science. What I here mean by ''induction'' is therefore
+''statistical inference'' (the term does in fact have
+another meaning in mathematics, also mentioned by Popper in his book).
 
 Using this meaning of ''induction'', it is indeed the scientific ideal that my
 research will rely upon. It might be noted however that in my case, using data
 from a quality register, the population of interest might be seen as almost 
 completely covered by the sample at hand. Hence, leaving less room for 
-generalization and real ''inductivist'' techniques. I tend to not agree though. 
+generalization and real ''inductive'' techniques. I tend to not agree though. 
+
 Our ''sample'' might have good ''coverage'' and ''completeness'' compared to the 
 population of individuals with Swedish identification numbers operated in Sweden
 during the years of interest. The proportion of non-Swedish residences operated
 with THA in Sweden might be marginal, as well as the proportion of Swedish
 residences operated elsewhere. It might however be of great interest to possibly
-generalize some of the results also to other countries with similar health care
-system as ours.
+generalize some of the results also to:
 
-A long term goal is also to facilitate predictions useful to future patients.
+* other countries with similar health care system as ours and
+* to similar patients as observed by the sample, but with surgery performed in the future.
+
 Extrapolation as such might not be completely justified by any scientific
-framework, but it does nevertheless make us dependent on inductive reasoning.
+framework, but the attempt nevertheless make us dependent on inductive reasoning.
 Hence, on generalizations to a population larger than the sample.
 
 
 ### Falsification
 
-It is also the ideal to falsify a ''tiny bit of paradigm'' by rejecting the 
+It is also the ideal of the study to falsify a ''tiny bit of paradigm'' by rejecting the 
 hypothesis that mortality for (elective) THA patients can be reasonably
-predicted by comorbidity.
+predicted by co-morbidity.
 
 
 ### Hypothesis testing
@@ -423,19 +421,19 @@ We are not able to currently test all our stated hypothesis. All stated
 hypothesis might however bee tested and therefore theoretically rejected in the
 future. This is in fact what Popper described as some sort of demarcation
 criteria for empirical science; that a hypothesis could be theoretically
-falsified, not necessarly that it should be formally tested within each study.
+falsified, not necessary that it should be formally tested within each study.
 
 Our problem is that we partially rely on quite novel statistical methods for
 estimating predictive power of survival models. Methods have been suggested for
-estimation of a so called ''concordance index'' as a meassure of predictive power,
+estimation of a so called ''concordance index'' as a measure of predictive power,
 but there is currently no closed form for estimation of related variance (needed
 for inference).
 
 The literature currently suggest use of more empirical methods such as
 ''bootstrapping'' (a re-sampling method) to construct estimates of variance. Our
-comorbidity data is however on a scale close to ''big data''. Available computer
+co-morbidity data is however on a scale close to ''big data''. Available computer
 resources is therefore a limiting factor making it difficult to achieve such
-estimates in practive. We therefore plan to include a more practical software
+estimates in practice. We therefore plan to include a more practical software
 developing part of the project, with the aim to make such computations possible
 in the future.
 
@@ -451,15 +449,17 @@ population to sample.
 
 ### The research and its potential relevance
 
+Let us here recap the project aims and suggested methods in order to formally 
+adhere to the questions stated for the assignment.
+
 The research project regards total hip arthroplasty. This is now a common
 procedure, performed to approximately 16,000 Swedish patients each year.
 Patients usually get an offer of hip replacement if this seem like a reasonable
 treatment for osteoarthritis. Patients then have to either accept or decline
 this offer, considering possible side effects (adverse events). Our research
-goal is to provide both the patient, but also the treating physician, with a
-shared decision making tool. It is our goal to use readily available patient
-data for the basis of a recommendation whether to operate or not. We hope that
-this will reduce the number of THA's causing more harm than good, and likewise
+goal is to provide the patient and the treating physician with a
+shared decision making tool to aid this decision. 
+A long-term goal of such tool is to reduce the number of THA's causing more harm than good, and likewise
 that patients with a potentially good outcome will accept the offer of THA.
 
 
@@ -469,7 +469,7 @@ The project was initiated by the Swedish Hip Arthroplasty Register. As such, it
 is intended to use data from the register. With the use of personal 
 identification numbers, we are also able to link our register data to other 
 already available registers. We therefore include information on possible 
-comorbidities (from the Swedish patient register), medical prescriptions (from
+co-morbidities (from the Swedish patient register), medical prescriptions (from
 the prescription register), date of death (from the population register) et
 cetera.
 
@@ -477,7 +477,7 @@ An obvious drawback with this ''fixed data set'' is that we have limited
 possibilities to extend the data to more than what is already available. Also,
 some data was collected for other reasons than research. This might be reflected
 on data quality. Some health care providers have for example used the patient 
-register as an administrative source for payments, sometimes causing skewed
+register data as an administrative source for invoicing, sometimes causing skewed
 incitements for registration of diagnoses.
 
 Also, the formulation of each question in the registers used, are standardized
@@ -487,7 +487,7 @@ squeezed into, sometimes with success, sometimes not. This also applies to some
 qualitative questions regarding the patients own perceptions of their current
 health status (patient reported outcome measures; EQ5D).
 
-Except its limitation, register data of this sort has the potential to be a good
+Beyond its limitation, register data of this sort has the potential to be a good
 descriptor of current clinical practice. It is therefore well suited for 
 observational studies, even though it does not provide data on possible
 causalities.
@@ -502,24 +502,24 @@ Some alternative research methods to consider:
 
 \item[A randomized clinical trial ]{is out of question for this research. We
 could simply not (by current ethical standards) induce random THA patients with
-comorbidities, just to study their future mortality.}
+co-morbidities, just to study their future mortality.}
 
 \item[Animal studies ]{does not seem like a reasonable method either. First, the
 use of hip prosthesis is probably not relevant for four-legged animals if the
 goal is to transfer the results to a two-legged human. This would leave us with
-a very limited options of animal models. Second, the required scale of such an
+very limited options of animal models. Second, the required scale of such an
 experiment would be too big to handle (both ethically and economically).}
 
 \item[Using medical journals ]{as a source of patient data would be possible and is sometimes relevant for information not covered by the registers. It is nevertheless cumbersome and the obvious
-benefits seems unclear.}
+benefits to this project seems unclear.}
 
 \item[Mixed methods ]{ by extending the quantitative data with qualitative interviews seems 
 interesting and would probably be relevant. It would be interesting to retrieve
-information not only regarding fixed comorbidity classes but also to get a
-deeper understanding of perceived health status and severity of each coexisting
-comorbidity. It would also have the potential to give a deeper understanding of
+information not only regarding fixed co-morbidity classes but also to get a
+deeper understanding of perceived health status and severity of each co-existing
+co-morbidity. It would also have the potential to give a deeper understanding of
 feelings and the reasoning behind a patients decision to accept or decline the
-offer of THA. Similar questions would be relevant also for treating physicians regarding their strategies of patient communication and reasoning when offering such procedure. Although relevant, this is however outside the scope of the current project.}
+offer of THA. Similar questions would be relevant also for treating physicians regarding their strategies for patient communication and reasoning when offering THA. Although relevant, this is (unfortunately) outside the scope of the current project.}
 
 \end{description}
 
@@ -529,9 +529,8 @@ offer of THA. Similar questions would be relevant also for treating physicians r
 
 ## Research ethics
 
-I did explore some ethical issues already in the research plan above. I was
-there focused on the research process itself and not on its potential
-outcome.
+I did explore some ethical issues related to the research process already in the research plan above. 
+Let us now instead focus on some ethical aspects related to the potential outcomes of the project. 
 
 Direct benefits for the research subjects themselves are limited. Since we study
 mortality, some of the included patients are already dead. The risk for these
@@ -548,22 +547,21 @@ statistical model alone can not take such responsibility, the most
 relevant data might still be out of reach from what is captured by register
 data.
 
-A possible misuse of a shared decision making tool would be if policy makers
+A possible misuse of a shared decision making tool would therefore be if policy makers
 and medical management used it to withhold possible treatment to patients
 needing it (for example due to economical reasons).
 
-To avoid such misuse can of course never be guaranteed but we do 
+To avoid such misuse can not be guaranteed but we do 
 think that potential benefits outweigh the risks.
 
 It might also be relevant to mention that the register data can only be used 
-for the research process itself. We are allowed to use the data described, to build statistical models. 
+for the research process itself. We are allowed to use the quality register data to build statistical models, to gain knowledge and to publish the results. 
 Current legislation does however not permit that future patients' register data is used 
-directly for a clinical decision through a decision tool 
-(since the quality register data is not authorised  
-the same way as a medical journal). It is therefore necessary for the treating physician 
-to double-enter data for the shared decision making tool (even though the
-same data might be already available from the register). This might be
-cumbersome to the doctor but it might also make it a little more transparent to
+directly for a clinical decision through an automated decision tool. Information from a medical journal might be used for clinical decisions, but data from a quality register might not. It is therefore necessary for the treating physician 
+to double-enter data for the shared decision making tool to work (even though the
+same data might be already available from the register). The tool itself can then base a recommendation on the model created from the earlier sample data, but it can not use new register data directly. 
+
+This might be seen as cumbersome to the doctor but it might also make it a little more transparent to
 the patient, exactly which information is used as a basis for the 
 recommendation.
 
@@ -581,19 +579,20 @@ I will focus on three data bases for information retrieval:
 \item[PubMed: ]{seems to be the most commonly used data base
 within my field (as seen from mentions in some articles). I also very much
 appreciate the possibilities of MeSH terms since some phrases (such as ''hip
-arthroplasty'' or ''hip replacements'') are not fully standardized. The idea of
+arthroplasty'' versus ''hip replacements'') are not fully standardized. The idea of
 manually indexed articles feels appealing. I must admit I first hesitated to use
-the database, mainly due to its old-style graphical design.} 
+the database, mainly due to its old-style looking graphical design.} 
 
 \item[Scopus: ]{my
 field is not entirely covered by the field of medicine. This is not obvious from
-the search queries above (focused on medical applications). Scopus does however
-cover journals of statistics (mathematical science) which PubMed does not.} 
+the search queries used below (focused solely on a medical application). 
+Scopus, in contrast to PubMed, cover journals of statistics (mathematical science) 
+which PubMed does not.} 
 
 \item[Google Scholar: ]{has previously been my go-to search engine and is also
-used extensively by my super-visor. I have so far not been so concerned by the
-sources of indexed journals et cetera since I have hoped to be able to deduct
-from reading each source if it seems reliable or not. I do however realize that
+used extensively by my supervisor. I have so far not been so concerned by the
+sources of indexed journals et~cetera (I have hoped to be able to deduct
+from reading each source if it seems reliable or not). I do however realize that
 the manual curation performed by the other data bases has some really nice
 properties.} 
 
@@ -611,17 +610,19 @@ Comments:
 and I changed to ''hip fracture'' only (regardless of THA). 
 * I am not really
 interested in short time mortality (death occurring in the immediate period
-after THA). I therefore started to exclude ''hospital mortality, which I found as
-a hopefully relevant MeSH term (with `NOT`, `AND NOT` and `-` in the different
-data bases)''. I did find this too narrow and therefore dropped it. 
+after THA). I therefore started to exclude ''hospital mortality'' 
+(a hopefully relevant MeSH term) by use of Boolean operators 
+''`NOT`'', ''`AND NOT`'' and ''`-`'' as used by the different
+data bases. I did find this too narrow though and therefore dropped it. 
 * I also
 tried to limit the search to different parts of the articles (such as all
 text/title/keyword/abstract et cetera). Best result was however found by
 including the title only (except for PubMed where MeSH terms was used with
 success).
 
+Comparisons between the data bases (search queries specified by references found below): 
 
-| Question                       | PubMed | Scopus | Google Scholar      | 
+|                               | PubMed | Scopus | Google Scholar       | 
 |-------------------------------|--------|--------|----------------------| 
 | Search terms used             | [1]    | [2]    | [3]                  | 
 | Any applied limiters/filters  | -      | -      | no citations/patents | 
@@ -660,12 +661,13 @@ fluent regarding the medical language, wherefore the use of MeSH term seems
 handy. It also feels safe to rely on a curated list of included journals.} 
 
 \item[Scopus ]{for articles on statistical methods and theory. I can not use
-PubMed for this purpose and it might be good to rely on the curated list of
+PubMed for this purpose but it might still be good to rely on a curated list of
 journals.} 
 
 \item[Google Scholar ]{for computational methods and software
-tutorials et cetera. These are not always published as peer-reviewed articles
-but might still be found by Google. I will probably still use Google Scholar
+tutorials et~cetera. These are not always published as peer-reviewed articles 
+(they need to be updated for new releases of the software). 
+I will probably still use Google Scholar
 also for a quick glances when conducting less systematic searches.} 
 
 \end{description}
@@ -674,9 +676,9 @@ also for a quick glances when conducting less systematic searches.}
 
 ### Fixed search strategies
 
-The articles found above very actually not that many. To get immediate alerts
+The articles found above were actually not that many. To get immediate alerts
 for newly indexed items therefore seems relevant. To create such alert for all
-sources would probably be redundant. I would therefore choose to create alerts
+sources would be redundant, I would therefore choose to create alerts
 from PubMed to get as many relevant hits as possible (relying on MeSH terms).
 
 I usually get article suggestions also from Mendeley and ResearchGate. I have
