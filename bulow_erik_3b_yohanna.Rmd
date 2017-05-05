@@ -1,0 +1,105 @@
+---
+title: "Review for Yohanna Eriksson"
+author: "Erik Bülow"
+date: "5 maj 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summmary
+
+The suggested thesis will use a mouse model to better understand the effect of cranial radiotherapy on children and the role of APP. The ultimate goal is to prevent long-term brain damages caused by radiotherapy.
+
+This is a very relevant and important subject. It is very easy to see the need for this research and the passion belonging to the researchers behind it. 
+
+
+
+# Reseacrh plan
+
+The thesis plan is professional and full of details. I would nevertheless make some suggestions that might be considered for further revisions. 
+
+
+## Purpose and aims
+
+The abbreviation "CRT" is used in this section but not explained until later. 
+
+It is stated that some findings were made "last year", although the result was published already in 2014. This might indicate that the research plan is a bit old and it might be suggested to instead specify during which year the discovery was made. 
+
+The "NORR team" is mentioned without any further explanation of the abbreviation. 
+
+
+## Background
+
+This section provides an excellent understanding on why this matter is important. The side effects of CRT are well described in a way that is easy to understand.
+
+It is stated that 95.7 % of brain tumor survivors experienced late effects. This number seems very distinct. I would suggest to present it without decimals (unless it was really measured with a very high level of confidence). It might also be of relevance to distinguish whether this number includes people that where not married by the time of the study? It is not obvious to me that the lack of marriage must be a consequence of earlier brain tumor (although this is obviously possible).
+
+It is stated that "We have previously shown ...". Does this indicate that the PhD project started before the research plan? Or is "we" a reference to the supervisors or some other group of people? 
+
+
+
+
+## Project descriptions
+
+### Specific aim 1
+
+This section is probably targeting an audience with some prior knowledge of the field. It is quite dense with information that might be hard to grasp fully by a reader without pre-existing knowledge. It is nothing wrong with this but in does introduce a style shift in relation to previous sections. 
+
+The approach section gives detailed information regarding the studies. I do however perceive a gap between this technical section and the background section describing late effects in children. It might be of interest to try to connect the general to the specific. 
+
+
+### Specific aim 2
+
+Some findings were promising from mouse studies and this is said to imply a "promising approach also in clinical setting". This connection might be obvious for the insiders, but mayby less so for us outside the field.
+
+The second point in the approach list states that results will be further investigated if there are positive effects. What will happen if the result is not "positive". Would this still be an interesting result to publish?
+
+
+## Methods
+
+A "clinical part that runs parallel to this project" is briefly mentioned. It might be of some interest to expand a little bit on this parallel part. Do you see any concrete synergies between the two parts? Are the same people involved in both projects?
+
+The section is otherwise very detailed. This is promising since it might indicate good possibilities for future reproducibility of the results.
+
+
+## Relevance
+
+It is a nice move to again zoom out from the specific and to remind the reader about the broader perspective and the end goal of the research.
+
+
+
+
+
+# Comments on the commentary
+
+
+## Theory of science
+
+It is evident from the text (both this section and others) that the researcher involved care deeply for their subject and the patients who their results intend to help. It is good to see that the end goal of the research seems to be never forgotten.
+
+It seems to me that some of the work is exploratory rather than confirmatory and hypothesis generating rather than hypothesis driven. I assume however that there is (as always) a mix of the two.
+
+
+## Research methodology
+
+The rigorous blinding procedure sounds like a state-of-the-art procedure. 
+It is  evident that the group is open-minded about their research methodology and that the most important thing is the end goal and not the tools to reach it.
+
+I very much appreciate the discussion on "man versus mice". I think some of it could also be included in the research plan itself.
+
+
+## Research ethics
+
+It is clear that the ethical aspects are very well thought through and that this is a lively discussed matter within the field. From what is read here, I absolutely agree that we here have the right person in the right place!
+
+
+## Information retrieval
+
+The descriptions are very detailed and therefore easy to follow. It also gives an impression of very ambiguous work, going through a hundred articles!
+Also, the result is very nice presented in a table with clear use of graphical elements and colors.
+
+
+

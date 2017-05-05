@@ -1,0 +1,111 @@
+---
+title: "Review for Jon Edqvist"
+author: "Erik Bülow"
+date: "5 maj 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summmary
+
+The suggested thesis will investigate a possible association between diabetes and obesity in Sweden, using register data from a variety of sources.
+
+This is both a relevant and interesting field and I feel very confident that Jon and his team are the right people for the job. They seem to have both the knowledge, resources and interest to make this a successful thesis.
+
+There is no place better than Gothenburg to study this relevant issue. The Swedish registers are world known for their high quality and the ability to link registers from different sources using personal identification numbers. And Gothenburg, of course, is the city where it all happens!
+
+
+
+# Suggestions for the research plan
+
+The thesis plan is well written and easy to follow. I would nevertheless make some suggestions that might be considered for further revisions. 
+
+
+## Analysis
+
+It might be of interest to also take possible time trends into account. Some data is available already from 1968, but it is likely that things have changed during the years. To include the year of measurement in the analysis might be relevant.
+
+
+## Language
+
+
+### General
+
+1. The term "fetma" is most often used for BMI > 30 but "obese" is used as well. It might be good either be consistent, or to clearly state that the two terms are used interchangeably. 
+2. I would recommend to avoid abbreviations such as "ca" (cirka), "ggr" (gånger) and "mm"" (millimeter). Also note that "mm" (millimeter) and "m.m./m m" (med mera) are spelled differently. 
+3. Some typographical details might be considered. It is recommended to always use space between words (even when the word is replaced with a symbol ("X < Y", not "X<Y"). Use fixed space (Ctrl/Cmd+Shift+space in MS Word) between number and unit that should not be separated by large spaces in marganally adfjusted text or by new lines. Use fixed space also to separate digits in large numbers (45 000, not 45,000) since "," is used as decimal point in Swedish. 
+
+
+
+### Scientific terms
+
+Some terms are used in a way that might be clarified:
+
+1. Average (genomsnittlig) is a rather vague term, most likely describing a "centrality measure" such as mean, median or mode. These measures might differ and it might be good to be as specific as possible.
+2. "Descriptive statistics" is supposed to be learned during the work with the thesis but there is also a lot of references to "inferential statistics". It might be more relevant to emphasise the latter than the first.
+3. Multivariate methods are good to learn but the term "multivariate" is sometimes problematic. In statistics, multivariate regression is regression with multiple *outcome variables*, while the term is often used in applications (such as medicine) for what statistics call "multiple regression" (regression with multiple *independent variables*). Epidemiology and some other fields also prefer "multivariable regression". All this is quite confusing since "univariate regression" is indeed used for regression with one outcome variable (hence, univariate and multivariate might sound like oposing terms). It might here be the case that "multivariate" is correctly used, but this is not obvious from the "preliminary section", where mortality seems to be the only outcome. 
+
+
+
+# Comments on the commentary
+
+## Theroy of science
+
+### Science ideal
+
+The generalization from sample (18 year old boys and pregnant women) to population (the general population) is not obvious. This might be discussed further. 
+
+
+### The falsification model
+
+The initial hypothesis was questioned after applying the exclusion criteria. Then, a new question was raised: "Do patients with type 2 diabetes have less risk of mortality than the general population?". I tend to agree that this preliminary finding might be caused by the novel exclusion criteria (which is mentioned).
+
+The term "accelerate linear" feels a little unusual. Does this imply an exponential change (acceleration is often used as an example of derivation)? 
+
+
+### Statements about the truth
+
+This section, especially the second sentence, is a little bit hard to follow. The subject might be seen as abstract and therefore difficult. It might be possible however to rephrase some clauses to make the message a little more clear.
+
+
+### Scientific paradigm
+
+The meaning of "quality papers" is a little unclear. Register data is more often used within "quantitative" (rather then "qualitative") research. But this might also be a value judgement regarding the quality of the published papers?
+
+
+## Research methodology
+
+### Topics and interest
+
+I find this section very clear and informative!
+
+
+### Strategy to answer research questions
+
+I find the reference to "time" a bit unclear. Is this the "time-to-event" (which, together with censoring patterns, is the foundation of survival analysis) or does it refer to some other trend observed over time?
+
+
+### Benefit and limitations
+
+I find the discussion to be relevant and I think it covers the relevant pros and cons of the study design! 
+
+
+## Research ethics
+
+All relevant aspects seems to be covered. I have nothing to add.
+
+
+
+
+## Information retrieval
+
+The third database (in addition to PubMed and Scopus) is either "Embase" or "Cinahl", probably the latter but it is not totally clear.
+
+
+
+## General language comment
+
+Abbreviations such as "don't"  and "can't" might be changed to "do not"  and "can not" et cetera.
