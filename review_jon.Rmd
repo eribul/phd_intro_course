@@ -1,7 +1,7 @@
 ---
 title: "Review for Jon Edqvist"
 author: "Erik Bülow"
-date: "4 maj 2017"
+date: "5 maj 2017"
 output: pdf_document
 ---
 
@@ -11,11 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Summmary
 
-The suggested thesis will investigate a possible associastion between diabetes and obesity in Sweden, using register data from a variaty of sources.
+The suggested thesis will investigate a possible association between diabetes and obesity in Sweden, using register data from a variety of sources.
 
 This is both a relevant and interesting field and I feel very confident that Jon and his team are the right people for the job. They seem to have both the knowledge, resources and interest to make this a successful thesis.
 
-There is no place better than Gothenburg to study this relevant issue. The Swedish registers are world known for their high quality and the ability to link registers from different sources using personal identification numbers. And Gothenburg is the city where it all happens, with registry offices and competent people. 
+There is no place better than Gothenburg to study this relevant issue. The Swedish registers are world known for their high quality and the ability to link registers from different sources using personal identification numbers. And Gothenburg, of course, is the city where it all happens!
 
 
 
@@ -26,7 +26,7 @@ The thesis plan is well written and easy to follow. I would never the less make 
 
 ## Analysis
 
-It might be of interest to also take possible time trends into account. Some data is available already from 1968, but it is likely that things have changeds during the years. To include the year of measurement in the models might therefore be relevant.
+It might be of interest to also take possible time trends into account. Some data is available already from 1968, but it is likely that things have changed during the years. To include the year of measurement in the models might therefore be relevant.
 
 
 ## Language
@@ -34,9 +34,9 @@ It might be of interest to also take possible time trends into account. Some dat
 
 ### General
 
-1. The term "fetma" is most often used for BMI > 30 but "obese" is used interchangebly. I suggest to be consistent. 
-2. I would recommend to avoid abbriviations such as "ca" (cirka), "ggr" (gånger) and "mm"" (millimeter). Note also that mm means millimeter and nothing else (not "med mera", which spells either "m.m." or "m m")! 
-3. Some typographical details might be considered. Always use space between words (even when the word is replaced with a symbol ("X < Y", not "X<Y"). Use fixed space between number and unit that should not be separated by large spaces or new line. Use fixed space also to separate digits in large numbers (45 000, nt 45,000) since "," is used as decimal point in Swedish. 
+1. The term "fetma" is most often used for BMI > 30 but "obese" is used interchangeably. I suggest to be consistent. 
+2. I would recommend to avoid abbreviations such as "ca" (cirka), "ggr" (gånger) and "mm"" (millimeter). Note also that mm means millimeter and nothing else (not "med mera", which spells either "m.m." or "m m")! 
+3. Some typographical details might be considered. Always use space between words (even when the word is replaced with a symbol ("X < Y", not "X<Y"). Use fixed space between number and unit that should not be separated by large spaces or new lines. Use fixed space also to separate digits in large numbers (45 000, not 45,000) since "," is used as decimal point in Swedish. 
 
 
 
@@ -44,10 +44,10 @@ It might be of interest to also take possible time trends into account. Some dat
 
 Some terms are used in a way that might be clarified:
 
-1. Average (genomsnittlig) is a rather vague term, most likely describing a "centrality measure" such as mean, median or mode. They might differ and it might be good to be specific.
-2. "Descriptive statistics" is supposed to be learned during the work with thesis but there is also a lot of references to "inferential statistics". I would suggest to put more empahis on the latter.
-3. The term "confounder" is here used for variables that will be included in the analysis (although from other than the primary data source). This seems like a contraciction. 
-4. Multivarite methods are good to learn but the term "multivariate" is sometimes problamitic. In statistics, a multivariate regression is regression with multiple *outcomes*, while the term is often used in applications (such as medicine) when the intended term is "multiple regression" (regression with multiple *independent variables*). Epidemiology and some other fiels also prefer "multivariable regression". It might here be the case that "multivariate methods" is correctly used, but this is not clear from, for example the "preliminary section", where mortality seems to be the only outcome. 
+1. Average (genomsnittlig) is a rather vague term, most likely describing a "centrality measure" such as mean, median or mode. These measures might differ and it might be good to be as specific as possible.
+2. "Descriptive statistics" is supposed to be learned during the work with the thesis but there is also a lot of references to "inferential statistics". I would suggest to put more emphasis on the latter.
+3. The term "confounder" is here used for variables that will be included in the analysis (although from other than the primary data source). This seems like a contradiction. 
+4. Multivariate methods are good to learn but the term "multivariate" is sometimes problematic. In statistics, a multivariate regression is regression with multiple *outcomes*, while the term is often used in applications (such as medicine) when the intended term is "multiple regression" (regression with multiple *independent variables*). Epidemiology and some other fields also prefer "multivariable regression". It might here be the case that "multivariate" is correctly used, but this is not clear from for example the "preliminary section", where mortality seems to be the only outcome. 
 
 
 
@@ -57,11 +57,14 @@ Some terms are used in a way that might be clarified:
 
 ### Science ideal
 
-The generalisation from sample (18 year old boys and pregnant women) to population (the general population) is not obvious. This migt be discussed futher. 
+The generalization from sample (18 year old boys and pregnant women) to population (the general population) is not obvious. This might be discussed further. 
+
 
 ### The falsification model
 
-The initial hypothesis was questioned after applying the exclusion criterias. Then a new question arised: "Do patients with type 2 diabetes have less risk of mortality than the general population?". Is it not  established that patients with diabetes have a relative survival less than 1, compared to individuals of the same age and sex? (I might recall a 10-year relative survival of around 50 per cent?) If so, I tend to agree that the difference might be strongly related to the novel excusion criterias and not so much to the general population.
+The initial hypothesis was questioned after applying the exclusion criteria. Then, a new question raised: "Do patients with type 2 diabetes have less risk of mortality than the general population?". Is it not  established that patients with diabetes have a relative survival less than 1, compared to individuals of the same age and sex? (I might recall a 10-year relative survival of around 50 per cent?) If so, I tend to agree that the difference might be strongly related to the novel exclusion criteria and not so much to the general population (which is also mentioned in the text).
+
+Also, the term "accelerate linear" feels a little unusual. Does this imply an exponential change (acceleration is often used as an example of derivation)? 
 
 
 ### Statements about the truth
@@ -83,7 +86,7 @@ I find this section to be very clear and informative!
 
 ### Strategy to answer research questions
 
-I find the reference to "time" a bit unclear. Is this the "time-to-event" (which, together with censoring patterns, is the fundament of survival analysis) or does it refer to some other time trends (as discussed above).
+I find the reference to "time" a bit unclear. Is this the "time-to-event" (which, together with censoring patterns, is the fundamental of survival analysis) or does it refer to some other time trends (as discussed above).
 
 
 ### Benefit and limitations
@@ -93,18 +96,17 @@ I find the discussion to be relevant and I think it covers most pros and cons of
 
 ## Research ethics
 
-All relevant aspects semms to be covered. I had nothing to add.
+All relevant aspects seems to be covered. I have nothing to add.
 
 
 
 
 ## Information retrieval
 
-The third database (in addition to Pubmed and Scoups) is either "Embase" or "Cinahl", probably the later but it is a little unclear.
+The third database (in addition to PubMed and Scopus) is either "Embase" or "Cinahl", probably the latter but it is not cotally clear.
 
 
 
 ## Some general comments
 
 1. Abbreviations such as "don't" might be changed to "do not" et cetera.
-2. The term "accelerate linear" feels a little unusual. Does this imply an exponential change (acceleration is often used as an example of derivatiion)? 

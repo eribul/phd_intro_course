@@ -1,0 +1,116 @@
+---
+title: "Review for Jana Ekberg"
+author: "Erik Bülow"
+date: "5 maj 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summmary
+
+The suggested thesis will investigate a new immunosuppresive protocol used in multiple centers after kidney transplantation, to decrease the risk of diabetes after transplantation. Several active substances are used in different doses. The study has already started with a published clinical protocol.
+
+Even thought the field is new to me, the material is described in such a way that it is easy to follow. New terms (and there are quite a few) are often explained at their first occurrence. It is clear that the text might be primary targeting a knowledgeable reader with some established insights in the field. It is nevertheless interestnig also for me as an outsider. 
+
+It is easy to grasp the importance and the relevance of the study and the authors passion for her patients and their (often severe) conditions. In my understanding, the Sahlgrenska academy is also a well recognized research site for this types of studies, which makes the research setting very promising.
+
+
+
+## Reseacrh plan
+
+The thesis plan is well written and easy to follow. I would nevertheless make some suggestions that might be considered for further revisions. 
+
+
+
+## Background
+
+Even though most abbreviations are carefully explained by their first occurrence, "CNI" is not. 
+
+The second sentence is rather long (30 words). Although this might not be a problem per se, it does contain several clauses that are intermingled in a way that might be improved.
+
+
+## Methods, population and statistics
+
+It is mentioned that the study takes place in collaboration with two other Nordic countries. It might be of relevance to name these countries. 
+
+The follow up is two years. The absolute time frame will probably vary depending on inclusion date but it might also be interesting to give some indications during which years the study will take place.
+
+A very minor detail: different words should generally be separated by spaces, even though one of the word is written with a symbol ("X %", not "X%"; some exceptions do exist). If the first part is a number and the second part is a unit, the space can also be "fixed" to avoid line breaks or large spaces in between.
+
+It might be of interest to explain roles of different professions taking part in the study (as briefly described in the research section of the commentary). 
+
+It is not totally clear if 222 patients is the targeted number of patients or if it is just the number so far (if recruitment is still made). It might also be of interest whether all patients invited to participate, did accept the offer, or if any (and in that case how many) declined to participate (but this might be outside the scope of this particular section).  
+
+The section is well written in general and contains all the relevant information.
+Although, a reference to the published study protocol might be of relevance for the readers who seeks more detailed information. 
+
+Finally, I sympathize strongly with the inclusion of a clearly stated hypothesis and the way to test it (well done!).
+
+
+
+## Ethics
+
+The section is rather short and written in a "standardized way". I do however appreciate that the subject is more deeply discussed later, in the commentary part of the report.
+
+
+## Structure of the doctoral project
+
+### Study 1
+
+The text is  well written and easy to follow. I would suggest however to make the closing reference a little more formalized. 
+
+
+### Study 2
+
+I appreciate the attempt to explain some differences in findings from previous studies! This indicate that the studies have been carefully read and digested. 
+I also appreciate that the stated hypothesis is made very clear and easy to interpret.
+
+
+### Study 3
+
+The study aims to validate an earlier suggested prediction instrument within the trial. To validate such an instrument on a new external population is of great value and of out-most importance for a new method to be fully trusted. This sounds like a good way to do it.
+
+
+
+### Study 4
+
+The term "correlation" (last sentence) has a specific meaning in statistics (a unit standardized measure of linear co-variation between two variables). As now stated, this sentence is a statement about the observed result. I am not sure whether this was intended. 
+
+
+
+
+
+
+# Comments on the commentary
+
+## Theroy of science
+
+The section is very clear and well written! 
+
+It is stated that the aim is to show "superiority" of one method over the other. The use of a two-sided hypothesis test (as described in the methods section) does only test if there is a difference between the two groups (without any preconception about which method that is superior). This is a good choose of method since it does not exclude the possibility that the anticipated superior method is in fact inferior. The calculated confidence interval will also make it clear which method might be considered superior (based on the data observed). 
+
+Hence, I strongly agree with the use of a two-sided test, even though you (according to this section) might have some preconception about one method being superior. (Which you obviously must have, since it might otherwise be unethical to perform such trial)
+
+
+## Research methodology
+
+I like that you adhere to CONSORT 2010. This might in fact be mentioned already in the research plan.  
+
+The follow up time of two years is here mentioned as a limitation. This makes me wonder why you did not extend it? I understand that it might be due to the doctoral thesis plan itself (that it can not go on forever). But it might be interesting to include some paragraph explaining why this particular time frame was chosen. 
+
+
+
+## Research ethics
+
+I find this section to be very well written, covering all relevant aspects of the subject. It is clear that you put a lot of thought on the matter and that you care deeply for the patients. 
+
+
+
+## Information retrieval
+
+The section contains some good and balanced motivations for the data bases used. I just have a very tiny comment regarding the headline "search queries". It later seems that the queries were developed dynamically (exemplified by MeSH terms). It might therefore be more relevant to name the list "initial search queries" or similar.
+
+
