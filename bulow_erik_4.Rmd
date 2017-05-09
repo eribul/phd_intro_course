@@ -1,0 +1,19 @@
+---
+title: "Self-evaluation of given feedback"
+author: "Erik Bülow"
+date: "9 maj 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I did for a while volunteer as a paper editor for a non-scientific Swedish paper. I am therefore quite used to review that type of text. When I do, I tend to put a lot focus on the text itself, including typography and other minor details in need of attention before sending the paper to press. 
+
+
+I find it very different however to review scientific text in English. Here, I do not have the confidence to review the language itself (since I am not a native English-speaker) and I think it is more important to focus on the content rather than on minor details regarding typography et cetera (which might be taken care of by others). This is at least what I tried to do for the assignment. 
+
+I also have some experience in reviewing pre-submitted articles regarding statistical methods and terminology, which I find easier since the goal of such paper is clear; it should contain all relevant descriptions and data et cetera. Here, with a research plan, the goal is different. There is no need to provide exact descriptions of methods et cetera, since this is likely to change during the research process itself. It is therefore less clear what to review and what to comment on. Also, the potential reader is different. I imagine that a published paper should be understandable by a larger audience than the research plan (who might be of interest primarily to people that are already quite involved in the field). 
+
+I also found it quite challenging to find a good balance between positive and negative feedback. I feel that I had more critique towards the beginning of the process but that I later (for the last of the three reviews) leaned more to the positive side (for no other reason than that I started to get tired and did not really have the energy to carefully balance the words, as more needed for negative critique). I found that one aspect related to this difficulties, is the knowledge that my name is visible to the reviewed author and that the tone of the response might have an effect of future interpersonal relationships within the study group. I therefore started to understand and appreciate the merits of an anonymous review, something that I did not really  understand before.
