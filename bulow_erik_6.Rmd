@@ -1,0 +1,36 @@
+---
+title: "Final evaluation of the written assignment"
+author: "Erik Bülow"
+date: "8 June 2017"
+output: pdf_document
+classoption: a4paper 
+geometry: top = 1in, bottom = 1.25in, left = 1.25in, right = 1.25in 
+---
+
+
+# My own writing
+
+I think that, given the current time frame and circumstances, I would most likely have written a quite similar report again, if I had to do it all over.  
+
+I would although include some formal references, as did my peers in their research plans. As stated before, I did use an old research plan originally written by my supervisor. I did quite a lot of revisions however. One of them was to use a different type-setting tool, wherefore the references got lost. 
+
+If I would had more time, I would also like to dive deeper into some of the aspects mentioned during the course. Henrik Zetterberg gave some suggestions for further reading already at the first day of the course. I did in fact purchase all the books mentioned and I would like for example to read Poppers book "The logic of scientific discovery".
+
+I am not sure that my writing assessments skills have actually changed that much during the course. I have always liked to write. I started to write a book at the age of 13 and I have been a (non-scientific) paper editor on a voluntary basis. I am however not fully confident in the English language. Every possibility to practice is therefore welcome. 
+
+What was most useful to me was the peer reviewing process. I will take with me that peer reviewing is difficult! I have some previous experience of non-scientific reviewing. It is then easy to focus on minor details such as language and typography. It is however more difficult to make valuable comments also on research methods and other scientific aspects not really related to the text itself but to the underlying activities it describes. I do think it would be easier however to peer review an actual paper. It is there of higher relevance to point out for example if the interpretation of the result is sound, based on the implemented statistical methods and its findings. It is different with a research plan where there is not yet any results or conclusions to evaluate. To evaluate intention is more difficult since it might require more outside knowledge regarding what is possible or feasible. In a real peer review process, you are also asked to contribute only if you are seen as a relevant peer reviewer based on your own work. You are unlikely (I guess) to peer review an article in a field completely unknown to you. 
+
+When it comes to the actual writing process, I think this is a little different for me as a statistician engaged in register studies, compared to for example clinicians or lab researchers. There has been a great movement during the last couple of years to ease reproducibility in statistical research. This means that there now exists tools to intermingle the data analysis with the writing process. I guess the common procedure for a lab researcher is to conduct a physical experiment, then to make measurements of the results, then to transfer those numbers into a computer readable format, then to make some analysis in a program such as SPSS, and finally to write about the result using a word processor. In register studies, the data is already gathered. It is therefore easier to automate the process from raw data to report. This can be done systematically, wherefore there is no need for word processing or similar. If everything is set up properly, it should be easy to re-run the whole analysis and to generate a new report for a new data set, without doing any manual work. The advantage of this setup is, as already stated, reproducibility. It should be easy to follow each step. It does on the other hand require some additional technical skills and quite a lot of patience to get it all up and running. 
+
+
+# Evaluation of the received feedback 
+
+The reviewed feedback was almost entirely positive. I think this might be because it is difficult to critically review projects in a field where you are not yourself fully confident. I did however get some suggestions of further clarifications, which I did appreciate and which I did take under consideration. It was also valuable in its own to get feedback from readers not fully knowledgeable in the field. This make it more evident if the text is understandable also for potential future readers from outside the field. As a statistician with a more theoretical background, it is also important to receive feedback from clinicians, with a better understanding of real clinical relevance of the project.  
+
+Version 0 of my research plan was the one written by my supervisor. Version 1 was quite different. I made quite a lot of changes to adopt it before I submitted it as the initial version for the course. Then, from version 1 to version 3, it did not actually change that much. I made some clarifications et cetera but the actual context were quite stable.   
+
+
+
+# Evaluation of the group’s work
+
+I think the group were very well composed. We had different professional backgrounds and experiences, which made large possibilities to learn from each other and to gain new insights in other fields. We shared common goals and were able to communicate well.
